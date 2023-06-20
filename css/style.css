@@ -1,0 +1,90 @@
+  @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300&display=swap');
+
+body{
+	background-color: #252525;
+	font-size: 14px;
+
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+	--color-cuadro-negro:#161616;
+}
+header{
+	background-color: var(--fondo-header);
+}
+#heroslides h5{
+	text-align: left;
+	font-size: 45px;
+	font-weight: 700;
+	letter-spacing: 0;
+}
+#heroslides p{
+	text-align: left;
+	font-size: 25px;
+	font-weight: 200;
+	letter-spacing: 0;
+}
+#heroslides a{
+	text-align: left;
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 0;
+}
+#intro{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#intro h3{
+	color: var(--color-footer)
+}
+#intro h4{
+	color: var(--color-footer)
+	
+}
+#intro p{
+	color: var(--color-footer)
+}
+.cuadro-negro{
+	background-color: var(--color-cuadro-negro);
+	color: #ffffff;
+	border-radius: 0;
+	border-color: #161616;
+	margin-bottom: 2%;
+}
+#proucts h1{
+	color: var(--color-footer);
+	margin-bottom: 30px;
+}
+
+#cta{
+	background-image: url("../img/bg-parallax.png");
+	background-size: cover;
+	background-position: top center;
+	height: 60vh;
+	color:#FFFFFF;
+	margin-top:25px;
+	background-color: var(--color-rojo);
+
+}
+#cta a{
+	color:#ffffff;
+}
+#cta h1{
+	margin-top: 30px;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
